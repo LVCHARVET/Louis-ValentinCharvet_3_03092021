@@ -24,6 +24,10 @@ $color-tertiary: #99E2D0;
     justify-content: center;
     padding: 10px 0 10px 0;
     font-size: 0.9em;
+    background-color: white;
+    position: sticky;
+    left: 0%;
+    top: 0%;
 }
 
 form {
@@ -48,14 +52,14 @@ input {
     align-items: center;
     text-align: center;
     gap: 10px;
-    padding: 30px 0 30px 0;    
+    padding: 30px 0 50px 0;    
     & strong {
         font-size: 1.5em;       
     } 
     & p {
         font-size: 1.1em;
     }
-    & button {
+    & a {
         background-color: $color-secondary;
         border: none;
         border-radius: 25px 25px 25px 25px;
@@ -64,8 +68,13 @@ input {
         padding: 13px 20px 13px 20px;
         font-size: 1em;
         box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+        text-decoration: none;
     }
+}
 
+#title {
+    font-size: 1.3em;
+    margin: 20px 0 20px 5px;
 }
 
 
