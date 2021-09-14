@@ -26,6 +26,20 @@ $color-tertiary: #99E2D0;
     box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
     text-decoration: none;
 }
+@mixin new {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 30px;
+    width: 90px;
+    background-color: $color-tertiary;
+    color:darken($color: $color-tertiary, $amount: 40);
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
 
 .banner {
     width: 100%;
@@ -120,6 +134,75 @@ input {
     }
 }
 
+#restaurants {
+    background-color: rgb(241, 240, 240);
+    margin-top: 60px;
+    padding: 10px 0 50px 0;
+}
 
+#articletitle {
+    display: flex;
+    font-size: 1.4em;
+    margin: 40px 0 30px 15px; 
+}
 
+#allslot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.slot {    
+    width: 90%;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
+    position: relative;
+    margin-bottom: 20px;
+    & img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    & i {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        font-size: 1.5em;           
+    }
+    & span {
+        @include new;
+    }
+}
+
+.textslot {
+    padding: 10px 0 0 10px;
+    font-size: 1.1em;
+    & p {
+        margin-top: 5px;
+    }
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;    
+    padding: 20px 0 30px 20px;
+    & h3 {
+        margin-bottom: 15px;
+    }
+    & ul {
+        list-style-type: none;
+    }
+    & li {
+        margin-bottom: 7px;
+    }
+    & i {
+        margin-right: 10px;
+    }    
+}
+
+.fa-hands-helping {
+    font-size: 0.6em;
+}
