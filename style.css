@@ -26,8 +26,6 @@ h1, h2, h3, h4 {
   padding: 10px 0 10px 0;
   font-size: 0.9em;
   background-color: white;
-  position: -webkit-sticky;
-  position: sticky;
   left: 0%;
   top: 0%;
 }
@@ -195,7 +193,8 @@ input {
   height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .slot i {
@@ -203,6 +202,7 @@ input {
   bottom: 10%;
   right: 10%;
   font-size: 1.5em;
+  cursor: pointer;
 }
 
 .slot span {
@@ -243,6 +243,7 @@ footer {
 
 footer h3 {
   margin-bottom: 15px;
+  font-weight: 500;
 }
 
 footer ul {
