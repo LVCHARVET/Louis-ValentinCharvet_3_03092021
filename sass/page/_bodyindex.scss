@@ -1,0 +1,52 @@
+#restaurants {
+    background-color: rgb(241, 240, 240);
+    margin-top: 60px;
+    padding: 10px 0 50px 0;
+}
+
+#articletitle {
+    display: flex;
+    font-size: 1.4em;
+    margin: 40px 0 30px 15px; 
+}
+
+#allslot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot {    
+    width: 90%;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
+    position: relative;
+    margin-bottom: 20px;
+    & img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    & i {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        font-size: 1.5em;
+        cursor: pointer;     
+    }    
+    & span {
+        @include new;
+    }
+}
+
+.textslot {
+    padding: 10px 0 0 10px;
+    font-size: 1.1em;
+    & p {
+        margin-top: 5px;
+    }
+}

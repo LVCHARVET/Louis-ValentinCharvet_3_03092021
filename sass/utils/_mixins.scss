@@ -1,0 +1,25 @@
+@mixin btn {
+    background: linear-gradient($color-secondary, $color-primary);
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    margin-top: 20px;
+    padding: 13px 20px 13px 20px;
+    font-size: 1em;
+    box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+    text-decoration: none;
+}
+@mixin new {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 30px;
+    width: 90px;
+    background-color: $color-tertiary;
+    color:darken($color: $color-tertiary, $amount: 40);
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
