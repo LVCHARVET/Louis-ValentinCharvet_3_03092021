@@ -7,10 +7,10 @@
   display: flex;
   border: white solid 1px;
   -webkit-box-shadow: grey 0 0 5px 0;
-  box-shadow: grey 0 0 5px 0;
+          box-shadow: grey 0 0 5px 0;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10px 0 10px 0;
   font-size: 0.9em;
   background-color: white;
@@ -26,10 +26,10 @@
   display: flex;
   border: white solid 1px;
   -webkit-box-shadow: grey 0 0 5px 0;
-  box-shadow: grey 0 0 5px 0;
+          box-shadow: grey 0 0 5px 0;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10px 0 10px 0;
   font-size: 0.9em;
   background-color: white;
@@ -71,20 +71,13 @@ footer i {
   font-size: 0.6em;
 }
 
-.footerpage {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  bottom: -930px;
-}
-
 form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 15px 0 15px 40px;
   background-color: rgba(204, 204, 204, 0.507);
 }
@@ -104,11 +97,11 @@ input {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   gap: 10px;
   padding: 30px 0 50px 0;
@@ -123,13 +116,7 @@ input {
 }
 
 .intro a {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ff79da),
-    to(#9356dc)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background: linear-gradient(#ff79da, #9356dc);
   border: none;
   border-radius: 25px 25px 25px 25px;
@@ -138,7 +125,7 @@ input {
   padding: 13px 20px 13px 20px;
   font-size: 1em;
   -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-  box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
   text-decoration: none;
 }
 
@@ -157,14 +144,14 @@ input {
   position: relative;
   border: white solid 1px;
   -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-  box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
   border-radius: 20px;
   width: 90%;
   height: 70px;
   margin: 0 0 30px 25px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbtn p {
@@ -181,11 +168,11 @@ input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 0.9em;
 }
 
@@ -224,11 +211,11 @@ input {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slot {
@@ -237,7 +224,7 @@ input {
   background-color: white;
   border-radius: 10px;
   -webkit-box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
-  box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
+          box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -246,7 +233,7 @@ input {
   width: 100%;
   height: 70%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -264,11 +251,11 @@ input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 30px;
   width: 90px;
   background-color: #99e2d0;
@@ -289,31 +276,19 @@ input {
   margin-top: 5px;
 }
 
-.menucard {
-  position: relative;
-}
-
-.menu {
-  position: absolute;
+.menuimg {
   width: 100%;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .menulist {
-  z-index: 1;
-  margin-top: 200px;
   background: white;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
 }
 
 .menulist a {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ff79da),
-    to(#9356dc)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background: linear-gradient(#ff79da, #9356dc);
   border: none;
   border-radius: 25px 25px 25px 25px;
@@ -322,17 +297,17 @@ input {
   padding: 13px 20px 13px 20px;
   font-size: 1em;
   -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-  box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 170px;
   margin: auto;
   margin-top: 50px;
@@ -340,16 +315,23 @@ input {
 }
 
 .menutitle {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 40%;
+  background: white;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 30px 40px 0 20px;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 40px 0 20px;
 }
 
 .menutitle h2 {
@@ -365,7 +347,8 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 40px 0 0 20px;
+  margin-top: 60px;
+  padding-left: 20px;
 }
 
 .foodslot {
@@ -375,17 +358,17 @@ input {
   border: white solid 1px;
   border-radius: 10px;
   -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-  box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
   height: 70px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: wrap column;
-  flex-flow: wrap column;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -ms-flex-line-pack: justify;
-  align-content: space-between;
+      align-content: space-between;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
 }
@@ -400,7 +383,7 @@ h4 {
 * {
   font-family: "Roboto", sans-serif;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
