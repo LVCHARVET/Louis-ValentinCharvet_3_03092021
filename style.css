@@ -377,7 +377,8 @@ input {
 }
 
 @media screen and (min-width: 768px) {
-  .textslot p, .textslot strong {
+  .textslot p,
+  .textslot strong {
     font-size: 1.3em;
     margin-top: 0;
   }
