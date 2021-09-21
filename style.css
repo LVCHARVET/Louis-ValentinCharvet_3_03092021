@@ -67,6 +67,12 @@ footer i {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    font-size: 1.5em;
+  }
+}
+
 .fa-hands-helping {
   font-size: 0.6em;
 }
@@ -80,6 +86,12 @@ form {
           justify-content: center;
   padding: 15px 0 15px 40px;
   background-color: rgba(204, 204, 204, 0.507);
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    font-size: 1.3em;
+  }
 }
 
 input {
@@ -109,6 +121,7 @@ input {
 
 .intro strong {
   font-size: 1.5em;
+  width: 70%;
 }
 
 .intro p {
@@ -129,12 +142,24 @@ input {
   text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 1.5em;
+  }
+}
+
 #navtitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 1.4em;
   margin: 40px 0 30px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #navtitle {
+    font-size: 2em;
+  }
 }
 
 .navbtn {
@@ -191,10 +216,52 @@ input {
   color: #9356dc;
 }
 
+@media screen and (min-width: 768px) {
+  .navbtn {
+    font-size: 1.5em;
+  }
+  .navbtn p {
+    left: -1%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbtn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+  }
+}
+
 #restaurants {
   background-color: #f1f0f0;
   margin-top: 60px;
   padding: 10px 0 50px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  #restaurants {
+    padding-top: 0;
+  }
 }
 
 #articletitle {
@@ -203,6 +270,12 @@ input {
   display: flex;
   font-size: 1.4em;
   margin: 40px 0 30px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #articletitle {
+    font-size: 2em;
+  }
 }
 
 #allslot {
@@ -216,6 +289,21 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  #allslot {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .slot {
@@ -267,6 +355,18 @@ input {
   font-size: 0.9em;
 }
 
+@media screen and (min-width: 768px) {
+  .slot i {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slot {
+    width: 40%;
+  }
+}
+
 .textslot {
   padding: 10px 0 0 10px;
   font-size: 1.1em;
@@ -274,6 +374,13 @@ input {
 
 .textslot p {
   margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .textslot p, .textslot strong {
+    font-size: 1.3em;
+    margin-top: 0;
+  }
 }
 
 .menuimg {

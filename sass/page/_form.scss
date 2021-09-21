@@ -3,6 +3,9 @@ form {
   justify-content: center;
   padding: 15px 0 15px 40px;
   background-color: rgba(204, 204, 204, 0.507);
+  @media screen and (min-width: 768px) {
+    font-size: 1.3em;
+  }
 }
 
 input {

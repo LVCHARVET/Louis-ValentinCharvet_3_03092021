@@ -2,6 +2,9 @@
   display: flex;
   font-size: 1.4em;
   margin: 40px 0 30px 15px;
+  @media screen and (min-width: 768px) {
+    font-size: 2em;
+  }
 }
 
 .navbtn {
@@ -40,5 +43,25 @@
   }
   &:hover i {
     color: $color-primary;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 1.5em;
+    p {
+      left: -1%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+nav {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
   }
 }

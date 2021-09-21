@@ -15,6 +15,9 @@ footer {
   & i {
     margin-right: 10px;
   }
+  @media screen and (min-width: 768px) {
+    font-size: 1.5em;
+  }
 }
 
 .fa-hands-helping {
