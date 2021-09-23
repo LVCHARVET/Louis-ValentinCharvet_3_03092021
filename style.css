@@ -162,6 +162,14 @@ input {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  #navtitle {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .navbtn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,12 +266,6 @@ input {
   padding: 10px 0 50px 0;
 }
 
-@media screen and (min-width: 1200px) {
-  #restaurants {
-    padding-top: 0;
-  }
-}
-
 #articletitle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,6 +277,15 @@ input {
 @media screen and (min-width: 768px) {
   #articletitle {
     font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #articletitle {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 60px;
   }
 }
 
