@@ -55,8 +55,16 @@
 
 .foodtitle {
   display: flex;
+  flex-direction: column;
   margin-top: 0;
   padding-left: 20px;
+  &:after {
+    height: 3px;
+    width: 40px;
+    background-color: $color-tertiary;
+    content: ' ';
+    margin-top: 5px;
+  }
   @media screen and (min-width: 768px) {    
     font-size: 1.5em;
     margin-top: 50px;
