@@ -451,10 +451,6 @@ input {
           filter: brightness(130%);
 }
 
-.menulist a:hover {
-  background-color: white;
-}
-
 @media screen and (min-width: 768px) {
   .menulist a {
     -webkit-transform: scale(1.5);
