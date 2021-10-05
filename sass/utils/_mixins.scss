@@ -8,6 +8,9 @@
   font-size: 1em;
   box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
   text-decoration: none;
+  &:hover {
+    filter: brightness(130%);
+  }  
 }
 
 @mixin new {

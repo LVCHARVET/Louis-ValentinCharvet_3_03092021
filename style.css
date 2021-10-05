@@ -142,6 +142,11 @@ input {
   text-decoration: none;
 }
 
+.intro a:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
 @media screen and (min-width: 768px) {
   .intro {
     font-size: 1.5em;
@@ -439,6 +444,15 @@ input {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 40px;
+}
+
+.menulist a:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.menulist a:hover {
+  background-color: white;
 }
 
 @media screen and (min-width: 768px) {
