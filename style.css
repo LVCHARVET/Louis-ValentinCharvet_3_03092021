@@ -1,5 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@-webkit-keyframes animheart {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes animheart {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes iconrotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes iconrotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes check {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes check {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@-webkit-keyframes marginslot {
+  0% {
+  }
+  100% {
+    padding-right: 20%;
+  }
+}
+
+@keyframes marginslot {
+  0% {
+  }
+  100% {
+    padding-right: 20%;
+  }
+}
+
+@-webkit-keyframes ease-top {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes ease-top {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
 .banner {
   width: 100%;
   display: -webkit-box;
@@ -71,6 +174,11 @@ footer i {
   footer {
     font-size: 1.5em;
   }
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .fa-hands-helping {
@@ -145,6 +253,8 @@ input {
 .intro a:hover {
   -webkit-filter: brightness(130%);
           filter: brightness(130%);
+  -webkit-box-shadow: black 2px 2px 2px;
+          box-shadow: black 2px 2px 2px;
 }
 
 @media screen and (min-width: 768px) {
@@ -449,6 +559,8 @@ input {
 .menulist a:hover {
   -webkit-filter: brightness(130%);
           filter: brightness(130%);
+  -webkit-box-shadow: black 2px 2px 2px;
+          box-shadow: black 2px 2px 2px;
 }
 
 @media screen and (min-width: 768px) {
@@ -570,6 +682,24 @@ input {
   }
 }
 
+.animfood {
+  position: relative;
+  opacity: 0;
+  -webkit-animation: ease-top 1000ms both;
+          animation: ease-top 1000ms both;
+}
+
+.animfood.delay-1 {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.animfood.delay-2 {
+  margin-bottom: 40px;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
 .foodtext {
   width: 80%;
   overflow: hidden;
@@ -612,66 +742,6 @@ input {
 .anim_icon i {
   font-size: 1.2em;
   color: white;
-}
-
-@-webkit-keyframes iconrotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes iconrotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes check {
-  0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  100% {
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-}
-
-@keyframes check {
-  0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  100% {
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-}
-
-@-webkit-keyframes marginslot {
-  0% {
-  }
-  100% {
-    padding-right: 20%;
-  }
-}
-
-@keyframes marginslot {
-  0% {
-  }
-  100% {
-    padding-right: 20%;
-  }
 }
 
 h1,

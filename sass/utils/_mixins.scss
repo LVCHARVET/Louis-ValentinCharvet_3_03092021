@@ -10,7 +10,8 @@
   text-decoration: none;
   &:hover {
     filter: brightness(130%);
-  }  
+    box-shadow: black 2px 2px 2px;
+  }
 }
 
 @mixin new {
@@ -26,4 +27,50 @@
   right: 2%;
   font-weight: bold;
   font-size: 0.9em;
+}
+
+@keyframes animheart {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes iconrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes check {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes marginslot {
+  0% {
+  }
+  100% {
+    padding-right: 20%;
+  }
+}
+
+@keyframes ease-top {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
 }

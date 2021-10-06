@@ -19,7 +19,7 @@
     width: 170px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 40px;      
+    margin-bottom: 40px;
     @media screen and (min-width: 768px) {
       transform: scale(1.5);
       margin-top: 80px;
@@ -87,18 +87,29 @@
   &:hover {
     animation: marginslot 1000ms both;
     & > .anim_check {
-      animation: check 1000ms both; 
+      animation: check 1000ms both;
       & i {
         animation: iconrotate 1000ms both;
-      } 
+      }
     }
-    
-    
   }
   @media screen and (min-width: 768px) {
     height: 100px;
     font-size: 1.5em;
     margin-bottom: 20px;
+  }
+}
+
+.animfood {
+  position: relative;
+  opacity: 0;
+  animation: ease-top 1000ms both;
+  &.delay-1 {
+    animation-delay: 500ms;
+  }
+  &.delay-2 {
+    margin-bottom: 40px;
+    animation-delay: 1000ms;
   }
 }
 
@@ -136,32 +147,5 @@
   & i {
     font-size: 1.2em;
     color: white;
-  }
-}
-
-@keyframes iconrotate {
-  0% {
-    transform: rotate(0deg);
-  }  
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes check {
-  0% {
-    transform: scaleX(0);
-    
-  }
-  100% {
-    transform: scaleX(1);
-  }
-}
-
-@keyframes marginslot {
-  0% {
-  }
-  100% {
-    padding-right: 20%;
   }
 }
