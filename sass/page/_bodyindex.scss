@@ -78,3 +78,21 @@
     }
   }
 }
+
+.loader {
+  position: fixed;  
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;  
+  width: 100vw;
+  height: 100vh;
+  font-size: 8em;  
+  background-color: transparent;
+  transform: scale(0);
+  animation: spinner 2s;
+  & i {
+    color: $color-tertiary;
+    animation: spinner 3s both;
+  }
+}
