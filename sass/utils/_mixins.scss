@@ -6,11 +6,11 @@
   margin-top: 20px;
   padding: 13px 20px 13px 20px;
   font-size: 1em;
-  box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+  box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   text-decoration: none;
   &:hover {
     filter: brightness(130%);
-    box-shadow: black 2px 2px 2px;
+    box-shadow: rgba(15, 15, 15, 0.534) 0px 3px 8px;
   }
 }
 

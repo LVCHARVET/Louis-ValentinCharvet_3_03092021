@@ -34,7 +34,7 @@
   height: 250px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
+  box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   position: relative;
   margin-bottom: 20px;
   & img {
@@ -50,6 +50,17 @@
     right: 10%;
     font-size: 1.5em;
     cursor: pointer;
+    &:active {
+      font-weight: 900;
+      background: linear-gradient(
+        45deg,
+        rgba(255, 121, 218, 1) 0%,
+        rgba(147, 86, 220, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animheart 1.5s;
+    }
   }
   & span {
     @include new;
@@ -63,6 +74,7 @@
     width: 40%;
   }
 }
+
 
 .textslot {
   padding: 10px 0 0 10px;

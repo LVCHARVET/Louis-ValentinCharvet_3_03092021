@@ -275,16 +275,16 @@ input {
   margin-top: 20px;
   padding: 13px 20px 13px 20px;
   font-size: 1em;
-  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+          box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   text-decoration: none;
 }
 
 .intro a:hover {
   -webkit-filter: brightness(130%);
           filter: brightness(130%);
-  -webkit-box-shadow: black 2px 2px 2px;
-          box-shadow: black 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.534) 0px 3px 8px;
+          box-shadow: rgba(15, 15, 15, 0.534) 0px 3px 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -321,8 +321,8 @@ input {
   display: flex;
   position: relative;
   border: white solid 1px;
-  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+          box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   border-radius: 20px;
   width: 90%;
   height: 70px;
@@ -467,8 +467,8 @@ input {
   height: 250px;
   background-color: white;
   border-radius: 10px;
-  -webkit-box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
-          box-shadow: rgba(128, 128, 128, 0.137) 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+          box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -488,6 +488,15 @@ input {
   right: 10%;
   font-size: 1.5em;
   cursor: pointer;
+}
+
+.slot i:active {
+  font-weight: 900;
+  background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animheart 1.5s;
+          animation: animheart 1.5s;
 }
 
 .slot span {
@@ -596,8 +605,8 @@ input {
   margin-top: 20px;
   padding: 13px 20px 13px 20px;
   font-size: 1em;
-  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+          box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -617,8 +626,8 @@ input {
 .menulist a:hover {
   -webkit-filter: brightness(130%);
           filter: brightness(130%);
-  -webkit-box-shadow: black 2px 2px 2px;
-          box-shadow: black 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.534) 0px 3px 8px;
+          box-shadow: rgba(15, 15, 15, 0.534) 0px 3px 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -657,6 +666,15 @@ input {
 
 .menutitle i {
   font-size: 1.5em;
+}
+
+.menutitle i:active {
+  font-weight: 900;
+  background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animheart 1.5s;
+          animation: animheart 1.5s;
 }
 
 @media screen and (min-width: 768px) {
@@ -701,8 +719,8 @@ input {
   position: relative;
   border: white solid 1px;
   border-radius: 10px;
-  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
-          box-shadow: rgba(15, 15, 15, 0.116) 2px 2px 2px 2px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+          box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
   height: 70px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
