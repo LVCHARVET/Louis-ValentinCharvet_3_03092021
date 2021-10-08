@@ -100,11 +100,18 @@
   width: 100vw;
   height: 100vh;
   font-size: 8em;  
-  background-color: transparent;
+  background-color: rgba(128, 128, 128, 0.445);
   transform: scale(0);
-  animation: spinner 2s;
+  animation: loader 2s;
   & i {
-    color: $color-tertiary;
-    animation: spinner 3s both;
+    font-weight: 900;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 121, 218, 1) 0%,
+      rgba(147, 86, 220, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: spinner 2s linear both;
   }
 }
