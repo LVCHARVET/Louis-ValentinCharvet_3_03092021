@@ -607,11 +607,18 @@ input {
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .menuimg {
+    height: 400px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
   .menuimg {
-    height: 660px;
+    height: 600px;
   }
 }
 
@@ -737,6 +744,10 @@ input {
   }
 }
 
+.foodallslot {
+  margin-bottom: 40px;
+}
+
 .foodslot {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -744,8 +755,8 @@ input {
   position: relative;
   border: white solid 1px;
   border-radius: 10px;
-  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
-          box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+  -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 5px 20px;
+          box-shadow: rgba(15, 15, 15, 0.116) 2px 5px 20px;
   height: 70px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -796,14 +807,19 @@ input {
 }
 
 .animfood.delay-2 {
-  margin-bottom: 40px;
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
+}
+
+.animfood.delay-3 {
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
 }
 
 .foodtext {
   width: 80%;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 

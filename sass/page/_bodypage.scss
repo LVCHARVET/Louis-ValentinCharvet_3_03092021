@@ -2,8 +2,12 @@
   width: 100%;
   z-index: -1;
   object-fit: cover;
+  height: 300px;
+  @media screen and (min-width: 768px) {
+    height: 400px;
+  }
   @media screen and (min-width: 1000px) {
-    height: 660px;
+    height: 600px;
   }
 }
 
@@ -83,12 +87,16 @@
   }
 }
 
+.foodallslot {
+  margin-bottom: 40px;
+}
+
 .foodslot {
   display: flex;
   position: relative;
   border: white solid 1px;
   border-radius: 10px;
-  box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+  box-shadow: rgba(15, 15, 15, 0.116) 2px 5px 20px;
   height: 70px;
   flex-flow: wrap column;
   justify-content: flex-end;
@@ -119,14 +127,17 @@
     animation-delay: 500ms;
   }
   &.delay-2 {
-    margin-bottom: 40px;
     animation-delay: 1000ms;
+  }
+  &.delay-3 {
+    animation-delay: 1500ms;
   }
 }
 
 .foodtext {
   width: 80%;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
   & p {
     overflow: hidden;
