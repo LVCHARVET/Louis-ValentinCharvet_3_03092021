@@ -1,0 +1,97 @@
+@mixin btn {
+  background: linear-gradient($color-secondary, $color-primary);
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+  margin-top: 20px;
+  padding: 13px 20px 13px 20px;
+  font-size: 1em;
+  box-shadow: rgba(15, 15, 15, 0.116) 0px 2px 5px;
+  text-decoration: none;
+  &:hover {
+    filter: brightness(130%);
+    box-shadow: rgba(15, 15, 15, 0.534) 0px 3px 8px;
+  }
+}
+
+@mixin new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 90px;
+  background-color: $color-tertiary;
+  color: darken($color: $color-tertiary, $amount: 40);
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+@keyframes animheart {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes iconrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes check {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes marginslot {
+  0% {
+  }
+  100% {
+    padding-right: 20%;
+  }
+}
+
+@keyframes ease-top {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(1);
+  }
+  99% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

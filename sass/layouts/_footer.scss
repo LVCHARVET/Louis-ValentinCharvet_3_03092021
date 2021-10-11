@@ -1,0 +1,30 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.774);
+  color: white;
+  padding: 20px 0 30px 20px;
+  & h3 {
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  & ul {
+    list-style-type: none;
+  }
+  & li {
+    margin-bottom: 7px;
+  }
+  & i {
+    margin-right: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 1.5em;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.fa-hands-helping {
+  font-size: 0.6em;
+}
+
