@@ -76,22 +76,6 @@
   }
 }
 
-.inputcheck {
-  visibility: hidden;
-}
-
-input[type="checkbox"]:checked ~ i {
-  font-weight: 900;
-  background: linear-gradient(
-    45deg,
-    rgba(255, 121, 218, 1) 0%,
-    rgba(147, 86, 220, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animheart 1.5s;
-}
-
 .textslot {
   padding: 10px 0 0 10px;
   font-size: 1.1em;

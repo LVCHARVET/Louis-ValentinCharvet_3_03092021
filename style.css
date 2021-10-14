@@ -556,19 +556,6 @@ input {
   }
 }
 
-.inputcheck {
-  visibility: hidden;
-}
-
-input[type="checkbox"]:checked ~ i {
-  font-weight: 900;
-  background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: animheart 1.5s;
-          animation: animheart 1.5s;
-}
-
 .textslot {
   padding: 10px 0 0 10px;
   font-size: 1.1em;
@@ -730,6 +717,14 @@ input[type="checkbox"]:checked ~ i {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .menutitle {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .foodtitle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -763,12 +758,26 @@ input[type="checkbox"]:checked ~ i {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 1000px) {
+  .foodallslot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .foodslot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  border: white solid 1px;
   border-radius: 10px;
   -webkit-box-shadow: rgba(15, 15, 15, 0.116) 2px 5px 20px;
           box-shadow: rgba(15, 15, 15, 0.116) 2px 5px 20px;
@@ -803,9 +812,15 @@ input[type="checkbox"]:checked ~ i {
 
 @media screen and (min-width: 768px) {
   .foodslot {
-    height: 100px;
+    height: 80px;
     font-size: 1.5em;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .foodslot {
+    width: 800px;
   }
 }
 
@@ -850,7 +865,7 @@ input[type="checkbox"]:checked ~ i {
 .anim_check {
   position: absolute;
   right: -2px;
-  top: 1px;
+  top: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -894,5 +909,18 @@ h5 {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.inputcheck {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked ~ i {
+  font-weight: 900;
+  background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animheart 500ms;
+          animation: animheart 500ms;
 }
 /*# sourceMappingURL=style.css.map */
